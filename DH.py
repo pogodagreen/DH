@@ -51,3 +51,16 @@ if __name__ == '__main__':
     while not isPrime(n):
         y = random.randrange(10, 100)
     Y = g ** y % n
+
+    #A
+    k1=Y**x %n
+    print(k1)
+
+    #B
+    k2=X**y %n
+    print(k2)
+
+    if(k1==k2):
+        print("It's the same")
+    else:
+        print ("They're not the same")
