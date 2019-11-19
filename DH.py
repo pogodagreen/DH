@@ -22,7 +22,7 @@ def isCoPrime(x, y):
 
 def primRoots(modulo):
     roots = []
-    required_set = set(num for num in range (1, modulo) if GCD(num, modulo) == 1)
+    required_set = set(num for num in range (1, modulo) if isCoPrime(num, modulo))
 
     for g in range(1, modulo):
         actual_set = set(pow(g, powers) % modulo for powers in range (1, modulo))
