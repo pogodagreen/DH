@@ -37,3 +37,13 @@ if __name__ == '__main__':
         n = random.randrange(10, 100)
     print ("n", n)
     print(primRoots(n))
+    g=max(primRoots(n))
+    print(g)
+
+    #A
+    x = random.randrange(10, 100)
+    while not isPrime(n):
+        x = random.randrange(10, 100)
+    X=g**x %n
+
+    
