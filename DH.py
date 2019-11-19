@@ -46,4 +46,8 @@ if __name__ == '__main__':
         x = random.randrange(10, 100)
     X=g**x %n
 
-    
+    #B
+    y = random.randrange(10, 100)
+    while not isPrime(n):
+        y = random.randrange(10, 100)
+    Y = g ** y % n
